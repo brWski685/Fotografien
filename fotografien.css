@@ -1,0 +1,77 @@
+/* basics */
+body {
+    margin: 20px;
+
+    font-family: 'Enriqueta', arial, serif;
+    position: relative;
+}
+.header{
+    height: 80px;
+    display: flex;
+}
+.title{
+    font-size: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.button {
+    font-size: 25px;
+    background-color: white;
+    border: solid 0px;
+    color: rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+.container1 {
+    border: solid 0px ;
+}
+
+button:hover{
+    color: black;
+}
+.buttonClass {
+    display: flex;
+    position:absolute;
+    right: 20px;
+    top: 10px;
+}
+/* Container1 */
+.container1 {
+    width: 100%;
+    height: 850px;
+    border: solid 1px white ;
+    background-color: #b9b9b933;
+    position: relative;
+}
+.row1 {
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.row2 {
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row1 img:hover {
+    opacity: 1;
+}
+.row2 img:hover{
+    opacity: 1;
+}
+.images img{
+    opacity: 0.8;
+    cursor: pointer; 
+    width: 310px;
+
+}
+.imgBig{
+    margin: 20px;
+}
+#imgBig {
+    width: 100%;
+    opacity: 1;
+}
